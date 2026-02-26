@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #eef2f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+#container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+#log-box {
+    background: #333;
+    color: #0f0;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: monospace;
+    min-height: 120px;
+}
+
+.log {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #444;
+}
